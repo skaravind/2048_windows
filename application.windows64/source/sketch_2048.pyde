@@ -1,13 +1,9 @@
-import os 
-dir_path = os.path.dirname(os.path.realpath(__file__))
-print(dir_path)
 grid = [[0,0,0,0],
         [0,0,0,0],
         [0,0,0,0],
         [0,0,0,0]]
 
-lines = loadStrings("highscore.txt")
-highscore = int(lines[0])
+highscore = 0
 score = 0
 
 def log2(x):
